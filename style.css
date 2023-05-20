@@ -1,0 +1,113 @@
+body {
+    background-color: coral;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    font-family: sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    color: #0ac542;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: inline;
+}
+
+.jumbotron {
+    padding: 20px;
+    background-color: #00c8eb;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+svg {
+    width: 30px;
+}
+
+footer {
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    background-color: #0ac542;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+
+
+
+.featured-image {
+    width: 70%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.logo {
+    width: 100px;
+}
+
